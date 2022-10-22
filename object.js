@@ -13,3 +13,16 @@ console.log({
     console.log('andar')
   }
 })
+
+// Object (revisão)
+
+const person = {
+  name: 'John',
+  age: 30,
+  weight: 88.6, // peso
+  isAdmin: true
+}
+
+console.log(person.name) // com isso pegamos apenas UMA propriedade do objeto person
+
+console.log(`${person.name} tem ${person.age} anos.`)
